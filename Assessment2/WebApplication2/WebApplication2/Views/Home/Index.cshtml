@@ -1,0 +1,45 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<main>
+    <section class="hero">
+        <h2>Welcome</h2>
+        <p>Discover the latest and most powerful computer products.</p>
+        <a href="#" class="cta-button">Browse products</a>
+    </section>
+
+    <section class="products">
+        <article class="product">
+            <img src="~/Content/Images/th2.jpg" alt="Laptop 1">
+            <h3>supernotebook</h3>
+            <p>Excellent performance, suitable for a variety of tasks.</p>
+            <span class="price">$999</span>
+            <button class="buy-button">Buy</button>
+        </article>
+
+        <article class="product">
+            <img src="~/Content/Images/th3.jpg" alt="Desktop 1">
+            <h3>Powerful desktop</h3>
+            <p>High performance desktop computer for professional users.</p>
+            <span class="price">$1499</span>
+            <button class="buy-button">Buy</button>
+        </article>
+
+        <!-- More product articles go here -->
+    </section>
+
+    <div>
+        <form>
+            <input type="button" value="click" onclick="msg()" />
+        </form>
+    </div>
+    <div>
+        <p><img src="~/Content/Images/th.jpg" alt="Sample" /></p>
+    </div>
+    <div>
+        <video width="320" height="240" controls="controls" autoplay="autoplay">
+            <source src="~/Content/Video/HP惠普中国，HP惠普儒韵笔记本电脑/Demo.mp4" type="video/mp4" />
+        </video>
+    </div>
+</main>
